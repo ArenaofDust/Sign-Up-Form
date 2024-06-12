@@ -116,6 +116,11 @@ p {
 
 }
 
+.error-message {
+    color: red;
+    font-size: 1.25rem;
+}
+
 .sign-up-form h3 {
     width: 100%; /* Makes the h3 take full width */
     grid-column: 1 / -1; /* Spans all columns if inside a grid */
@@ -131,6 +136,10 @@ button {
     font-size: 1.5rem;
     cursor: pointer;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adds drop shadow */
+}
+
+button:hover {
+    background: #c39e86;
 }
 
 .login-link {
