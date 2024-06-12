@@ -41,7 +41,7 @@ p {
     top: 50%;
     transform: translateY(-50%);
     left: 0;
-    width: 85%;
+    width: 91%;
     height: 20%;
     background: rgba(0, 0, 0, 0.5);
     color: white;
@@ -91,12 +91,6 @@ p {
 }
 */
 
-.form-rows div {
-    display: flex;
-    width: 200px;
-}
-
-
 .sign-up-form {
     padding: 3% 10%;
     display: grid;
@@ -106,13 +100,28 @@ p {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adds drop shadow */
 }
 
+.sign-up-form label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+
+.sign-up-form input {
+    display: block;
+    width: 100%;
+    padding: 8px;
+    font-size: 1.25rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+
+}
+
 .sign-up-form h3 {
     width: 100%; /* Makes the h3 take full width */
     grid-column: 1 / -1; /* Spans all columns if inside a grid */
 }
 
 .button {
-    background-color: white;
     height: 200px;
     flex: 1;
     margin: 4px;
